@@ -1,0 +1,223 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+
+
+
+.styleTop {
+    background-color: #1451f7;
+    border: 2px;
+    border-radius: 0px;
+    height: 88px;
+}
+
+
+
+.textStyle {
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: -33px 0px 0px 0px;
+    font-size: xx-large;
+}
+
+
+
+
+.weatherCard {
+    position: relative;
+    background-color: white;
+    border: 2px;
+    border-radius: 89px;
+    margin: 33px 0px 0px 509px;
+    box-shadow: 0px 12px 54px grey;
+    height: 900px;
+    width: 900px;
+}
+
+
+
+.submit {
+    height: 46px;
+    width: 100px;
+    border-radius: 31px;
+    background-color: #1451f7;
+    color: white;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 168px 0px 0px 63px;
+    padding: 6px 20px 3px 34px;
+}
+
+.submit:hover{
+    background-color: darkblue;
+}
+
+
+.localTimeClass {
+    font-family: cursive;
+    margin: -31px 0px 0px 96px;
+    padding: 0px 0px 0px 0px;
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+.innerDiv {
+    color: black;
+    font-family: cursive;
+    margin: 20px;
+    padding: 0px 0px 0px 79px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.temperaturDisplay{
+    color :  #1451f7;
+    padding: 0px 0px 0px 100px;
+    font-size: 111px;
+}
+
+
+
+.weatherMain {
+    color: blue;
+    margin: -152px 0px 0px -60px;
+    padding: 1px 0px 0px 573px;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+
+.parameterTable {
+    color: #1451f7;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 45px 0px 0px;
+}
+
+.weatherIcon {
+    color: blue;
+    width: 197px;
+    height: 116px;
+}
+.searchBox {
+    margin: 167px 12px 0px 26px;
+    padding: 0px 0px 0px 0px;
+    height: 46px;
+    width: 279px;
+    outline: 0;
+    border-width: 0px 0 4px;
+    border-color: #1451f7;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.searchBox:focus{
+    border-color: darkblue;
+}
+
+.parameterTable{
+    color: #1451f7;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+.weatherDetails {
+    display: flex;
+    justify-content: space-around;
+    margin: 161px 0px 0px -34px;
+    padding: 0px 0px 0px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.parameterTable {
+    color: #1451f7;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.weatherDetails{
+    display: flex;
+    justify-content: space-around;
+    margin : 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.box{
+    display : flex;
+    justify-content: flex-start;
+}
+
+.topLogo{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px
+}
+
+@media only screen and (max-width: 1412px){
+    
+.weatherCard {
+    position: relative;
+    background-color: white;
+    border: 2px;
+    border-radius: 89px;
+    margin: 31px 0px 0px 284px;
+    box-shadow: 0px 12px 54px grey;
+    height: 900px;
+    width: 900px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 403px){
+    .weatherCard {
+        position: relative;
+        background-color: white;
+        border: 2px;
+        border-radius: 89px;
+        margin: 75px 0px 0px 4px;
+        box-shadow: 0px 12px 54px grey;
+        height: 1093px;
+        width: 847px;
+    }
+
+
+    .styleTop {
+        background-color: #1451f7;
+        border: 2px;
+        border-radius: 0px;
+        height: 88px;
+        width: 3000px;
+    }
+
+    
+
+.submit {
+    height: 46px;
+    width: 100px;
+    border-radius: 31px;
+    background-color: #1451f7;
+    color: white;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 164px 0px 0px 22px;
+    padding: 6px 20px 3px 34px;
+}
+}
+
+    
+
